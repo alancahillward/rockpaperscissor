@@ -1,4 +1,4 @@
-# defines win/loss conditions
+# defines win/loss conditions and prints match results
 
 if player == compchoice:
     print('Tie!')
