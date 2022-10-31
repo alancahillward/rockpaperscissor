@@ -1,0 +1,3 @@
+#final print statement
+print("computer: " + compchoice)
+print("player: "+ player)
