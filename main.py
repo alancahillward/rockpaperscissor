@@ -1,6 +1,7 @@
+#init
 import random
 
-
+#main
 while True: 
     choices = ["rock", "paper", "scissors"]     
     compchoice = random.choice(choices)
@@ -27,10 +28,10 @@ while True:
         else:
             print(lost)
 
-
+#print choices
     print("computer: " + compchoice)
     print("player: "+ player)
-
+#determines whether the game continues
     play_again = input("Play again? (yes/no): ").lower()
 
     if play_again != "yes":
