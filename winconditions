@@ -1,0 +1,19 @@
+# defines win/loss conditions
+
+if player == compchoice:
+    print('Tie!')
+elif player == "rock":
+    if compchoice == "scissors":
+        print(won)
+    else:
+        print(lost)
+elif player == "paper":
+    if compchoice == "rock":
+        print(won)
+    else:
+        print (lost)
+elif player == "scissors":
+    if compchoice == "paper":
+        print(won)
+    else:
+        print(lost)
