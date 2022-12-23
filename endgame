@@ -1,6 +1,0 @@
-#either ends game or continues it via the While loop at top of main
-play_again = input("Play again? (yes/no): ").lower()
-
-  if play_again != "yes":
-        break
-print("Bye!")
