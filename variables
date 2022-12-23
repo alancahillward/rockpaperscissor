@@ -1,9 +1,0 @@
-#declares rock paper and scissors
-choices = ["rock", "paper", "scissors"]     
-compchoice = random.choice(choices)
-player = input("rock, paper or scissors?: ").lower()
-
-#lets me type a little less :P
-lost = "You Lose :( "
-won = "You Won!"
-
