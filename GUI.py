@@ -40,22 +40,28 @@ def WinCheck(PlayerChoice, CPUChoice):
             if CPUChoice == 'scissors':
                 Won()
                 
-            else:
+            elif CPUChoice == 'paper':
                 Lost()
-                print('lost')
+            elif CPUChoice == 'rock':
+                Tie()
+                
         elif PlayerChoice == 'paper':
             if CPUChoice == 'rock':
                 Won()
                 
-            else:
+            elif CPUChoice == 'scissors':
                 Lost()
+            elif CPUChoice == 'paper':
+                Tie()
                 
         elif PlayerChoice == 'scissors':
             if CPUChoice == 'paper':
                 Won()
                 print('won')
-            else:
+            elif CPUChoice == 'rock':
                 Lost()
+            elif CPUChoice == 'scissors':
+                Tie()
                 
         elif PlayerChoice == CPUChoice:
             Tie()
@@ -87,6 +93,7 @@ ScissorsButton = tk.Button(window, bg="white", text="Scissors", width=50, comman
 ScissorsButton.pack()
 ResetButton = tk.Button(window, bg="white", text="End Game", width=50, command=EndGame)
 ResetButton.pack()
+
 
 
 
